@@ -11,8 +11,10 @@
 /* background home */
 #home {
     background-image: url(asset/Home.png);
-    width: 1300px;
+    width: 100vp;
     height: 674px;
+    background-position: center;
+    background-size: cover;
 }
 
 /* navigasi bar */
@@ -27,19 +29,20 @@ nav {
     margin: 0px;
     background-color: rgba(0, 0, 0, 0.3);
     width: 100%;
+    border-radius: 5px;
 }
 .nav-item {
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 5px;
     padding-bottom: 5px;
-    border-radius: 5px;
     color: #ffffff;
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .menu {
     padding: 8px;
+    align-content: end;
 }
 .nav-item:hover {
     border-bottom: 1 px solid white;
@@ -73,7 +76,6 @@ nav {
     text-align: right;
     margin-right: 150px;
 }
-
 /* profile */
 #profile {
     background-color: #FFF7EE;
@@ -107,3 +109,143 @@ nav {
     color: white;
 }
 
+/* Collection */
+#collection header {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-align: center;
+}
+.collection-one{
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+    background-image: url(asset/exp-one.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+.collection-two {
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+    background-image: url(asset/exp-two.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+.collection-three {
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+    background-image: url(asset/exp-three.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+.collection-list{
+    display: flex;
+    justify-content: space-around;
+    font-size: 16px;
+    margin-top: 50px;
+}
+
+#collection {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+/* upcoming */
+#upcoming {
+    background-image: url(asset/Collection.png);
+    width: 100vp;
+    height: 674px;
+    background-position: center;
+    background-size: cover;
+}
+.soon {
+    display: flex;
+    justify-content: space-around;
+    font-size: 16px;
+}
+.soon p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    color: white;
+
+}
+.text-satu {
+    margin-top: 250px;
+}
+.text-dua {
+    margin-top: 250px;
+}
+
+/* produk-model */
+.model-produk {
+    background-color: #303F3C;
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+}
+.model-produk img {
+    width: 500px;
+    height: 500px;
+    border: 10px solid white;
+}
+.produk-one {
+    width: 500px;
+    float: left;
+    position: relative;
+}
+.model-produk .produk-one .text1 {
+    position: absolute;
+    width: 440px;
+    top: 200px;
+    right: 20px;
+    color: white;
+    text-align: center;
+}
+.model-produk .produk-one .text1 p {
+    font-size: 20px;
+}
+
+.produk-two {
+    width: 500px;
+    float: left;
+    position: relative;
+}
+.model-produk .produk-two .text2 {
+    position: absolute;
+    width: 440px;
+    top: 200px;
+    right: 20px;
+    color: white;
+    text-align: center;
+}
+.model-produk .produk-two .text2 p {
+    font-size: 20px;
+}
+
+/* contact */
+#contact {
+    background-image: url(asset/Contact.png);
+    width: 100vp;
+    height: 374px;
+    background-position: center;
+    background-size: cover;
+}
+.alamat h1{
+    padding: 50px;
+}
+.alamat {
+    padding-bottom: 50px;
+    background-color: #303F3C;
+    color: white;
+}
+.contact {
+    margin-left: 150px;
+}
+.contact, th, td {
+    border-collapse: collapse;
+    border: 0px solid black;
+}
